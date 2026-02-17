@@ -345,4 +345,12 @@
     });
 
     if (!window.logoplugin) startPlugin();
+    Lampa.Template.add('logoEn_hide_head_css', '<style>\
+.full-start-new__head{\
+  display:none !important;\
+}\
+</style>');
+
+$('body').append(Lampa.Template.get('logoEn_hide_head_css'));
 })();
+
