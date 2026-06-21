@@ -1,0 +1,17 @@
+(function () {
+    var title = document.createElement('div');
+    title.className = 'plugin-title';
+    title.innerText = 'Title Plugin';
+
+    // 🔧 Стиль з лівим вирівнюванням
+    title.style.cssText = `
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        color: #fff;
+    `;
+
+    // Додаємо заголовок у контейнер
+    document.body.appendChild(title);
+})();
